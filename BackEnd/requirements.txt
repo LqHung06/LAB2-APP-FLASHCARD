@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+firebase-admin
+sqlalchemy
+pyodbc
+pydantic
+pydantic-settings
+httpx
+python-dotenv
+pydantic[email]
