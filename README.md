@@ -1,8 +1,8 @@
-# 🧠 Flashcard AI — Học từ vựng tiếng Anh thông minh
+# Flashcard AI — Học từ vựng tiếng Anh thông minh
 
 Ứng dụng Flashcard tích hợp AI (Groq LLaMA) giúp phân tích, dịch nghĩa, và tạo thẻ từ vựng tiếng Anh-Việt tự động.
 
-## 📋 Tính năng
+## Các Tính năng
 
 - 🔐 **Xác thực**: Email/Password + Google OAuth (Firebase Auth)
 - 🤖 **AI Generation**: Nhập từ → AI phân tích (IPA, nghĩa, ngữ cảnh, ví dụ)
@@ -22,7 +22,7 @@
 | Auth | Firebase Auth (Admin SDK + Client SDK) |
 | AI | Groq API — llama-3.1-8b-instant |
 
-## 🚀 Cài đặt & Hướng dẫn chạy
+## Cài đặt & Hướng dẫn chạy
 
 ### 1. Hướng dẫn cài đặt environment
 
@@ -37,10 +37,10 @@
 3. *(Tùy chọn)* Chạy lệnh trong file `BackEnd/migration.sql` để tạo bảng thủ công.
 
 **Cấu hình biến môi trường (.env):**
-Tạo file `.env` ở thư mục gốc của dự án. (Lưu ý: Không đưa file `.env` chứa credentials thật lên GitHub).
+Tạo file `.env` ở thư mục gốc của dự án. 
 Mẫu cấu hình:
 ```env
-DATABASE_URL=mssql+pyodbc://sa:MatKhauLa123@localhost/DB_Lab2?driver=ODBC+Driver+17+for+SQL+Server
+DATABASE_URL=mssql+pyodbc://sa:MatKhau@localhost/tenDB?driver=ODBC+Driver+17+for+SQL+Server
 GROQ_API_KEY=gsk_xxxxx
 SECRET_KEY=your-secret-key
 FIREBASE_CREDENTIALS_JSON='{ ... }'
@@ -97,7 +97,7 @@ Frontend sẽ chạy tại: `http://localhost:5173`
 ## 📁 Cấu trúc dự án
 
 ```
-lab2/
+LAB2-APP-FLASHCARD/
 ├── .env                          # Cấu hình chung
 ├── BackEnd/
 │   ├── app/
@@ -138,7 +138,7 @@ lab2/
 └── README.md
 ```
 
-## 📡 API Endpoints
+## API Endpoints
 
 | Method | Path | Mô tả |
 |--------|------|--------|
