@@ -83,8 +83,7 @@ npm run dev
 Frontend sẽ chạy tại: `http://localhost:5173`
 
 ### 4. Đường dẫn đến video demo
-
-👉 **[Link Video Demo Hệ Thống Flashcard AI]({Điền_Link_Video_Demo_Của_Bạn_Vào_Đây})**
+https://drive.google.com/file/d/1dt-6Lr_AVQv0_rJMS0sLjZiHEO7vxkTy/view?usp=drive_link
 
 ### 5. Sử dụng Hệ thống
 1. Mở `http://localhost:5173` trên trình duyệt.
